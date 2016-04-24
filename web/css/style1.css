@@ -1,0 +1,44 @@
+/* Stylesheet 1 -------------------------------*/
+
+body { margin:0; font:12px Tahoma; color:black; background:url(../images/bg1.jpg) 50% 0 #151921 repeat-x; } 
+ 
+#ev_bg { background:url(../images/ev_bg.gif) repeat-y; width:1064px;  margin:0px auto; }
+#everything { width:1000px; margin:0 32px;  background:url(../images/parchment-light2.jpg); border:1px solid black; border-width:0px 1px; }
+
+#header { height:162px; background:url(../images/wow_header.jpg) right no-repeat; padding:0 20px; }
+#header h1 { padding-top:115px; margin:0; color:white; }
+
+#middle { clear:both; background:url(../images/border2_red.gif) repeat-x; padding:20px 10px; }	
+	
+	#left_column { width:195px; float:left; }
+	.horizontal #left_column { width:auto; float:none; }
+		#navigation a { background:url(../images/button1_bg.gif) no-repeat; width:170px; height:25px; display:block; padding-left:25px; margin:5px 0;
+						font-size:13px; color:white; text-decoration:none; line-height:25px;}
+		#navigation a:hover { background-position:0 bottom;  }
+		.horizontal #navigation a { float:left; } 
+		#more_information { padding-top:15px;}
+		
+	#middle_column { float:left; width:50%; margin:0px 20px; }
+	#middle_column.two_column { float:left; width:75%; } 
+	.horizontal #middle_column { width:auto; float:none; }
+		.date_break { font-size:19px; border-bottom:1px solid #7A0C0C; margin-bottom:10px; }
+		.post { background:url(../images/parchment-light3.jpg); border:1px solid #545454; margin-bottom:35px; line-height:18px; } 
+		.post h1 { background:url(../images/title_bg1.gif) repeat-x #0d2368; padding:2px 10px; margin:0; font-size:15px; color:white;} 
+		.post_body { padding:5px 15px; }
+		.post .postedby { float:left; clear:both; }
+		.post .timestamp { float:right }
+
+		ul { margin:20px; padding:10px; }
+		li { list-style:none; background:url(../images/bullet.gif) 0 5px no-repeat;  padding-left:30px; line-height:25px;  }
+		.list_left, .list_right { width:48%; float:left }
+
+		.post_info { clear:both; padding-top:10px; }
+	
+	#right_column { width:26%; float:left; }
+		.box { background:url(../images/parchment-light3.jpg); border:1px solid #545454; margin:10px 0 25px 0; padding:10px; }
+
+#footer { clear:both; padding:20px }
+	#subnav { margin:10px 0;}	
+	#subnav a { color:#7A0C0C; }
+	#subnav a:hover { color:#E51414 } 
+	.copyright { font-size:10px;}
